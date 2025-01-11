@@ -33,6 +33,7 @@ a{
     color: #0E0E0E;
     font-weight: 600;
     font-size: 40px;
+    margin-left: 0;
   }
   .banner-content{
     max-width: 600px;
@@ -161,3 +162,39 @@ color: #0E0E0E;
     background-color: #FFA500;
   }
  /* cards section ends here */
+ /* note starts here */ 
+ .note{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 184px;
+    margin: 48px 160px;
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+ }
+ .note h2{
+    color: #0E0E0E;
+    margin: 24px 24px;
+ }
+ .note p{
+    color: #808080;
+    margin: 24px;
+ }
+ .note #text{
+margin-top: 48px;
+ }
+ /* note ends here */
+
+ /* recent part starts here */
+ .recent{
+    margin: 48px 160px;
+ }
+ .recent p{
+    color: #808080;
+    margin: 24px;
+ }
+ .recent h2{
+    color: #0E0E0E;
+   font-size: 30px;
+   margin: 24px 24px;
+ }
