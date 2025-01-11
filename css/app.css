@@ -2,11 +2,35 @@
 a{
     text-decoration: none;
 }
+ul li{
+    list-style: none;
+}
 .fira-sans-medium {
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-style: normal;
   }
+  /* nav starts here */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 31px 160px;
+  }
+  .btn{
+    background-color: #fff;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 32px;
+  }
+  .btn:hover{
+    background-color: #006A50;
+    color: #fff;
+  }
+  /* nav ends here */
+  
   /* banner starts here */
   .banner .container{
     display: flex;
@@ -301,6 +325,7 @@ text-align: center;
     margin: 32px 284px;
     border: none;
 }
+/* subscribe starts here */
 .subscribe{
     background-color: #C6E4D6;
     border: none;
@@ -334,4 +359,14 @@ text-align: center;
     border-radius: 5px;
     display: inline-block;
     cursor: pointer;
+}
+footer h1{
+    text-align: center;
+}
+footer .links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 50px;
 }
