@@ -30,7 +30,7 @@ ul li{
     color: #fff;
   }
   /* nav ends here */
-  
+
   /* banner starts here */
   .banner .container{
     display: flex;
@@ -291,16 +291,22 @@ margin-left: 48px;
 .price{
     display: flex;
     justify-content: space-evenly;
-    margin: 80px 200px;
+    /* margin: 80px 200px; */
+    margin-left: 20px;
+    margin-top: 3;
 }
 .donate h2{
 text-align: center;
+}
+.donate p{
+    text-align: center;
+    color: #808080;
 }
 .donate .btn-2{
    margin: 32px 710px;
    display: block;
 }
-.tk-1,.tk-2,.tk-3{
+.tk-1,.tk-2,.tk-3,.tk-4 {
    background-color: gray;
    border-radius: 10px;
    height: 128px;
@@ -362,6 +368,7 @@ text-align: center;
 }
 footer h1{
     text-align: center;
+    margin-bottom: 32px;
 }
 footer .links ul{
     display: flex;
