@@ -1,0 +1,163 @@
+
+a{
+    text-decoration: none;
+}
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* banner starts here */
+  .banner .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .banner-content .banner-title{
+    color: #808080;
+  }
+  .banner{
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    margin: 20px 160px;
+  }
+  .btn-primary{
+    background-color: #006A50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 24px;
+  }
+  .banner-description{
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .banner-content{
+    max-width: 600px;
+    margin: 117px 0px 117px 60px;
+  }
+  /* banner ends here */
+.vision{
+    margin: 80px 160px;
+}
+  .vision h2{
+color: #0E0E0E;
+  }
+  .vision p{
+    color: #808080;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+  /* cards section starts here */
+  .cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 160px;
+  }
+.card1{
+    background-color: #F1F1F3;
+    border-radius: 10px;
+    height: 325px;
+    margin-right: 24px;
+  }
+  .card2{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    margin-right: 24px;
+  }
+  .card3{
+    background-color: #F7EBCF;
+    border-radius: 10px;
+}
+
+  .card1 h3{
+    color: #0E0E0E;
+    margin-top: 24px;
+  }
+  .card1 p{
+    color: gray;
+    margin-bottom: 24px;
+  }
+  .card1 h3,p{
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+  .card1 p{
+    margin-bottom: 64px;
+  }
+  .card1 img{
+    margin-left: 32px;
+    margin-top: 32px;
+  }
+  .btn-1{
+    color: #fff;
+    background-color: #006A50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 32px;
+  }
+ .btn-1:hover{
+    background-color: #0E0E0E;
+  }
+ .btn-2{
+    color: #fff;
+    background-color: #09a15c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 32px;
+  }
+  .btn-2:hover{
+    background-color: seagreen;
+  }
+  .card2 h3{
+    color: #0E0E0E;
+    margin-top: 24px;
+  }
+  .card2 p{
+    color: gray;
+    margin-bottom: 24px;
+  }
+  .card2 h3,p{
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+  .card2 p{
+    margin-bottom: 64px;
+  }
+  .card2 img{
+    margin-left: 32px;
+    margin-top: 32px;
+  }
+  .card3 h3{
+    color: #0E0E0E;
+  }
+  .card3 p{
+    color: gray;
+  }
+  .card3 h3,p{
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+  .card3 p{
+    margin-bottom: 64px;
+  }
+  .card3 img{
+    margin-left: 32px;
+    margin-top: 32px;
+  }
+  .btn-3{
+    color: #fff;
+    background-color: #FFC239;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 32px;
+  }
+  .btn-3:hover{
+    background-color: #FFA500;
+  }
+ /* cards section ends here */
