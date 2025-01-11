@@ -110,6 +110,7 @@ color: #0E0E0E;
     padding: 10px 20px;
     border-radius: 5px;
     margin-left: 32px;
+    text-align: center;
   }
   .btn-2:hover{
     background-color: seagreen;
@@ -198,3 +199,139 @@ margin-top: 48px;
    font-size: 30px;
    margin: 24px 24px;
  }
+ /* article starts here */
+ .article{
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 160px;
+ }
+ .article  .cnt{
+  margin-left: 32px;
+ }
+.article .cnt h2{
+margin-bottom: 12px;
+margin-left: 32px;
+}
+.article .cnt p{
+    margin-bottom: 32px;
+    color: gray;
+    max-width: 744px;
+}
+.article .cnt{
+    margin-top: 32px;
+}
+.article .cnt img{
+    margin-left: 32px;
+}
+.article .icon img{
+    margin-left: 32px;
+    margin-top: 48px;
+}
+.article-2 .icon-2 img{
+    margin-right: 32px;
+    margin-top: 48px;
+}
+ .article-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 160px;
+ }
+ .article-2  .cnt-2{
+  margin-left: 32px;
+  margin-top: 32px;
+  max-width: 744px;
+ }
+.article-2 .cnt-2 h2{
+margin-bottom: 12px;
+margin-right: 32px;
+}
+.article-2 .cnt-2 p{
+    margin-bottom: 32px;
+    color: gray;
+    margin-left: 0;
+}
+.article-2 .cnt-2 img{
+    margin-right: 32px;
+}
+.article-2 .cnt-2 .btn-2{
+    margin-left: 0;
+}
+.article, .article-2{
+ background-color: #F1F1F3;
+ width: 1280px;
+ height: 400px;
+}
+.article .cnt{
+margin-left: 48px;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 200px;
+}
+.donate h2{
+text-align: center;
+}
+.donate .btn-2{
+   margin: 32px 710px;
+   display: block;
+}
+.tk-1,.tk-2,.tk-3{
+   background-color: gray;
+   border-radius: 10px;
+   height: 128px;
+   width: 240px;
+   color: #fff;
+   text-align: center;
+   padding: 32px;
+}
+.tk-2:hover{
+    background-color: #09a15c;
+}
+
+
+.box input{
+    width: 1032px;
+    height: 64px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: 32px 284px;
+    border: none;
+}
+.subscribe{
+    background-color: #C6E4D6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 32px 300px;
+    width: 1000px;
+    height: 395px;
+}
+.subscribe input{
+    border-radius: 8px;
+    padding: 2px;
+    width: 600px;
+    height: 55px;
+    margin: 32px 80px;
+}
+.subscribe h2{
+    color: #0E0E0E;
+    font-weight: 600;
+    text-align: center;
+}
+.subscribe p{
+    color: #808080;
+    text-align: center;
+}
+.button{
+    background-color: #006A50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
